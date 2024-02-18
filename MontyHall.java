@@ -18,7 +18,7 @@ public class MontyHall {
 		
 		Random r = new Random();
 		
-		// This for loop simulates 100 rounds of the gambling game.
+		// This for loop simulates 1000 rounds of the gambling game.
 		for (int i = 0; i < 1000; i++) {
 			
 			int doorChosen = r.nextInt(3); // Randomly chooses and assigns the index of the door that is chosen by the audience.
